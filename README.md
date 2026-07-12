@@ -1,5 +1,11 @@
 # 🛒 Olist E-Commerce Data Analysis using SQL & Python
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-purple)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
 ## 📌 Project Overview
 
 This project analyzes the Brazilian Olist E-Commerce dataset using **MySQL**, **SQL**, **Pandas**, **Matplotlib**, and **Seaborn** to uncover business insights related to revenue, customers, products, sellers, reviews, and deliveries.
@@ -54,6 +60,27 @@ The main objectives of this project are:
 - SQLAlchemy
 - python-dotenv
 - Jupyter Notebook
+
+# ⚙️ Setup
+
+1. Clone the repository.
+2. Create a `.env` file by copying `.env.example` and replace `YOUR_PASSWORD` with your local MySQL password.
+3. Add your MySQL credentials:
+
+```text
+MYSQL_USER=root
+MYSQL_PASSWORD=YOUR_PASSWORD
+MYSQL_HOST=localhost
+MYSQL_DATABASE=olist
+```
+
+4. Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Run the notebooks in order.
 
 ---
 # 📁 Project Structure
