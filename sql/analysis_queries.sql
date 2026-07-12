@@ -1,4 +1,6 @@
+-- ====================================
 --SALES ANALYSIS
+-- ====================================
 
 
 --TOTAL REVENUE
@@ -85,9 +87,9 @@ FROM CUSTOMERS
 GROUP BY CUSTOMER_STATE;
 
 
-
+-- ====================================
 --PRODUCT ANALYSIS
-
+-- ====================================
 
 
 --TOP SELLING PODUCTS
@@ -138,9 +140,9 @@ ON PR.PRODUCT_ID=OI.PRODUCT_ID
 GROUP BY PR.PRODUCT_CATEGORY_NAME;
 
 
-
+-- ====================================
 --SELLERS ANALYSIS
-
+-- ====================================
 
 
 --TOP SELLERS BY REVENUE
@@ -177,9 +179,9 @@ ORDER BY NUMBER_OF_SELLERS DESC;
 
 
 
-
+-- ====================================
 --REVIEWS ANALYSIS
-
+-- ====================================
 
 
 --AVERAGE REVIEW SCORE
@@ -215,9 +217,9 @@ LIMIT 10;
 
 
 
-
+-- ====================================
 --DELIVERY ANALYSIS
-
+-- ====================================
 
 
 --AVERAGE DELIVERY TIME
