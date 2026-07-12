@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Environment files
+.env
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log

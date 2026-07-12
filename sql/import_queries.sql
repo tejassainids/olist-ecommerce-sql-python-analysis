@@ -1,0 +1,2 @@
+-- Data was imported using MySQL Workbench Table Data Import Wizard.
+-- No SQL import script was used.
