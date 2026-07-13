@@ -28,6 +28,7 @@ The dataset contains information about:
 - Payments
 - Reviews
 - Geolocation
+- Translation
 
 **Dataset License:** CC BY-NC-SA 4.0
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce

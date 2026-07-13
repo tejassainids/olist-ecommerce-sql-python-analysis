@@ -1,19 +1,17 @@
 /*
 Data Import Notes
 
-The dataset was imported using the MySQL Workbench
-Table Data Import Wizard.
+The Olist dataset was imported into MySQL using Python.
 
-No SQL LOAD DATA INFILE statements were used.
+Libraries Used:
+- pandas
+- SQLAlchemy
 
-Imported tables:
-- customers
-- orders
-- order_items
-- payments
-- reviews
-- products
-- sellers
-- geolocation
-- translation
+Import Method:
+1. CSV files were loaded using pandas.read_csv().
+2. SQLAlchemy was used to connect Python to MySQL.
+3. DataFrames were inserted into MySQL using DataFrame.to_sql().
+
+No MySQL Workbench Import Wizard or LOAD DATA INFILE
+commands were used.
 */
